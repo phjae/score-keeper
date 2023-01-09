@@ -14,7 +14,8 @@
 }
 .container {
   max-width: 500px;
-  border: 1px solid black;
+  border: 1px solid #f6f6f6;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.2);
   margin: 40px auto;
   display: flex;
   flex-direction: column;
