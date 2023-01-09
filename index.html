@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScoreKeeper</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="/main.js" defer></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+      <div class="img"></div>
+      <div class="title">Ping Pong Score Keeper</div>
+    </div>
+    <h1 class="score">
+      <span id="#scr1" class="scr1">0</span>
+      <span class="to">to</span>
+      <span id="#scr2" class="scr2">0</span>
+    </h1>
+    <div class="sub">
+      Use the buttons below to keep score
+    </div>
+    
+    <div class="player">
+      <h2>Playing to</h2>
+      <form id="numbers">
+        <select name = "round" class="round">
+          <option value = "3" selected>3</option>
+          <option value = "4">4</option>
+          <option value = "5">5</option>
+          <option value = "6">6</option>
+          <option value = "7">7</option>
+          <option value = "8">8</option>
+          <option value = "9">9</option>
+          <option value = "10">10</option>
+          <option value = "11">11</option>
+        </select>
+    </form>
+    </div>
+    <div class="btns">
+      <button id="btn1" class="btn btn--btn1">+1 Player One</button>
+      <button id="btn2" class="btn btn--btn2">+1 Player Two</button>
+      <button id="btn3" class="btn btn--btn3">Reset</button>
+    </div>
+  </div>
+</body>
+</html>
